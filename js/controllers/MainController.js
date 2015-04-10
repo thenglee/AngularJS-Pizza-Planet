@@ -19,4 +19,17 @@ app.controller('MainController', ['$scope', function($scope) {
     }
   ];
 
+  $scope.mains = [
+    {
+      name: 'Canard',
+      description: 'Served with vin',
+      price: 20.95
+    },
+    {
+      name: 'Fruit de la mer',
+      description: 'Served with lettuce, tomatoes and olive oil',
+      price: 15.95
+    }
+  ];
+
 }]);
